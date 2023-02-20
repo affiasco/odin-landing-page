@@ -2,3 +2,70 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container {
+  border: 2px solid black;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.header-section {
+  border: 2px solid red;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  padding: 0 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.header-logo img {
+  max-width: 180px;
+  flex: 1 1 180px;
+}
+
+.header-nav .header-nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.header-nav-links li {
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.header-nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav-links a:hover,
+.header-nav-links a:focus {
+  text-decoration: underline;
+  /* text-shadow: 1px 1px 2px #3772f6; */
+  text-shadow: #3772f6 5px 5px 10px;
+}
+
+.content-section {
+  border: 2px solid green;
+}
+
+.quote-section {
+  border: 2px solid purple;
+}
+
+.footer-section {
+  margin-top: auto;
+  border: 2px solid blue;
+}
