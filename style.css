@@ -61,6 +61,7 @@ body {
 
 .header-content-left,
 .header-content-right {
+  flex-wrap: wrap;
   flex: 1;
 }
 
@@ -68,12 +69,14 @@ body {
   color: #f9faf8;
   font-size: 48px;
   font-weight: extra bold;
+  padding-right: 50px;
 }
 
 .header-content-left p {
   color: #e5e7eb;
   font-size: 18px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  padding-right: 50px;
 }
 
 .header-content-left button {
