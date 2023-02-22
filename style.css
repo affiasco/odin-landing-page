@@ -65,18 +65,20 @@ body {
   flex: 1;
 }
 
+.header-content-left {
+  padding-right: 200px;
+}
+
 .header-content-left h1 {
   color: #f9faf8;
   font-size: 48px;
   font-weight: extra bold;
-  padding-right: 50px;
 }
 
 .header-content-left p {
   color: #e5e7eb;
   font-size: 18px;
   margin-bottom: 10px;
-  padding-right: 50px;
 }
 
 .header-content-left button {
@@ -97,7 +99,7 @@ body {
 }
 
 .header-content-right img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 .content-section {
