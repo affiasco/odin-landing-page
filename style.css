@@ -114,3 +114,37 @@ body {
   margin-top: auto;
   border: 2px solid blue;
 }
+
+.content-section {
+  padding-bottom: 100px;
+}
+
+.content-section h1 {
+  text-align: center;
+  display: block;
+  padding: 50px 0;
+}
+
+.main-content-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-content img {
+  max-width: 70%;
+  margin-bottom: 10px;
+  border-radius: 10%;
+}
+
+.main-content p {
+  max-width: 50%;
+}
