@@ -82,6 +82,7 @@ body {
 }
 
 .header-content-left button {
+  border: solid 2px #3882f6;
   background-color: #3882f6;
   color: #f9faf8;
   font-size: 12px;
@@ -160,6 +161,32 @@ body {
   padding-right: 250px;
 }
 
-.footer-section {
+footer {
   margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9faf8;
+  padding: 100px 0;
+}
+
+.footer-cta {
+}
+
+.footer-cta-right button {
+  border: solid 2px #f9faf8;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 26px;
+  border-radius: 10px;
+}
+
+.footer-cta-right button:hover,
+.footer-cta-right button:active {
+  border: 2px solid #3882f6;
+  color: #3882f6;
+  background-color: #f9faf8;
+  cursor: pointer;
 }
