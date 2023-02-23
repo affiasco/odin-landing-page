@@ -167,17 +167,29 @@ footer {
   justify-content: center;
   align-items: center;
   background: #f9faf8;
-  padding: 100px 0;
+  padding: 75px 0;
 }
 
 .footer-cta {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 50px 0;
+  min-width: 88%;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#f-cta-1 {
+  font-weight: 700;
 }
 
 .footer-cta-right button {
   border: solid 2px #f9faf8;
   background-color: #3882f6;
   color: #f9faf8;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 700;
   padding: 8px 26px;
   border-radius: 10px;
